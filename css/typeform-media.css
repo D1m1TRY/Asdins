@@ -1,0 +1,33 @@
+@media screen and (max-width: 650px) {
+  #typeform {
+    width: 100%;
+  }
+
+  #typeform .typeform-footer .content {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  #typeform .submit .buttons {
+    flex-direction: column;
+  }
+
+  #typeform .typeform-footer .content .answers .count-line {
+    width: 130px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  #typeform .typeform-footer .content .answers .close-form {
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  #typeform .typeform-footer .content .answers .count-line {
+    width: 100px;
+  }
+}

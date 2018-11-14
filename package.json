@@ -1,0 +1,18 @@
+{
+  "name": "asdins",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "node scripts/deploy.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "colors": "^1.1.2",
+    "lodash": "^4.17.4",
+    "recursive-readdir": "^2.2.1",
+    "ssh2-sftp-client": "^1.1.0"
+  }
+}

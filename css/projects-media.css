@@ -1,0 +1,133 @@
+@media screen and (max-width: 1200px) {
+  #portfolio .project {
+    width: 960px;
+  }
+
+  #portfolio .project .about-project .description .name-and-dev {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  #portfolio .project .about-project .developers {
+    padding: 20px 0;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  #mainNav .navbar-nav > li > a {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  #portfolio .project {
+    width: 740px;
+  }
+
+  #portfolio .project .about-project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  #portfolio .project .about-project .description {
+    padding-top: 100px;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  #portfolio .project .about-project .description .name-and-dev {
+    align-items: center;
+  }
+
+  #portfolio .project .about-project .preview {
+    max-width: none;
+  }
+
+  #portfolio .project .about-project .preview .slider {
+    width: 700px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #portfolio .project {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  #portfolio .project .about-project .preview {
+    min-width: 0;
+  }
+
+  #portfolio .project .about-project .preview .slider {
+    width: 500px;
+  }
+
+  #portfolio .project .about-project .description {
+    padding-top: 60px;
+  }
+
+  #portfolio .project .about-project .description .stack {
+    justify-content: center;
+  }
+
+  #portfolio .project .about-project .description .about {
+    height: auto;
+    text-align: justify;
+  }
+
+  #portfolio .project .about-project .description .about:after {
+    content: '';
+    display: none;
+  }
+
+  #contact .wrap-content .left ul {
+    text-align: center;
+  }
+
+  #contact .wrap-content .left ul li span {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  #portfolio .project .about-project .preview .slider {
+    width: 400px;
+  }
+
+  #portfolio h1.title,
+  section h2.section-heading {
+    font-size: 32px;
+  }
+
+  #portfolio .project .about-project .description .name-and-dev h2.name {
+    font-size: 27px;
+  }
+
+  #portfolio .project .customer-review h3.quote {
+    font-size: 17px;
+  }
+
+  #portfolio .project .customer-review p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  #portfolio .project .about-project .preview .slider {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  #portfolio .project .about-project .preview .slider {
+    width: 280px;
+  }
+
+  #portfolio .project .customer-review h3.quote {
+    max-width: 70%;
+  }
+}

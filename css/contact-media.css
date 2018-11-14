@@ -1,0 +1,28 @@
+@media screen and (max-width: 1200px) {
+  #contact .wrap-content {
+    width: 960px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  #contact .wrap-content {
+    width: 740px;
+    flex-direction: column;
+  }
+
+  #contact .wrap-content .right {
+    padding-top: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #contact .wrap-content {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  #contact h1.title {
+    font-size: 30px;
+  }
+}
